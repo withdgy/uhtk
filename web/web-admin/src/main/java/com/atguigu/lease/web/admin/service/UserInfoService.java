@@ -1,6 +1,10 @@
 package com.atguigu.lease.web.admin.service;
 
 import com.atguigu.lease.model.entity.UserInfo;
+import com.atguigu.lease.web.admin.vo.user.UserInfoQueryVo;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
